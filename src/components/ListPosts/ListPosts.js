@@ -26,6 +26,9 @@ class ListPosts extends Component {
   }
 
   render() {
+    if (this.props.posts.length === 0) {
+      return <div className="post empty">Create a post to view it here!</div>;
+    }
     return <div className="post-container">{this.renderList()}</div>;
   }
 }
