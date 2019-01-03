@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: rgba(218, 208, 157, 0.7);
+  height: 100vh;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+form {
+  margin: 20px auto;
+  width: 70%;
+  color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  padding: 20px 50px;
+  background-color: rgba(175, 175, 175, 0.2);
+  font-weight: 300;
+  font-size: 20px;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.07);
+}
+
+form > div {
+  padding: 5px;
+}
+
+input,
+textarea {
+  background: none;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 7px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.create-post {
+  width: 70%;
+  margin: 0 auto;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 5px;
+  text-decoration: none;
+  background: rgb(105, 122, 131);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: rgb(132, 168, 187);
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}

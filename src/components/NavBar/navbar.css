@@ -1,0 +1,55 @@
+.navigation {
+  display: flex;
+  padding: 30px 40px 30px 40px;
+}
+
+.navigation a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.branding {
+  flex: 2;
+  padding: 15px;
+}
+
+.branding a {
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 2px;
+  padding-top: 2px;
+  transition: 0.2s linear;
+}
+
+.branding a:hover {
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  transition: 0.1s linear;
+}
+
+.links {
+  flex: 1;
+  padding: 35px 15px 25px 15px;
+  text-align: right;
+}
+
+.links a {
+  font-weight: 300;
+  padding-top: 5px;
+  transition: 0.1s linear;
+}
+
+.links a:hover {
+  padding-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.spacer {
+  padding: 0px 15px 0px 15px;
+  display: inline;
+}

@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "title": "Another test",
+      "body": "Just want to console.log() something...",
+      "id": 2
+    },
+    {
+      "title": "Yep, you guessed it... another test",
+      "body": "Here goes...",
+      "id": 3
+    },
+    {
+      "title": "Test",
+      "body": "Hello",
+      "id": 4
+    },
+    {
+      "title": "Hello",
+      "body": "Hello",
+      "id": 5
+    },
+    {
+      "title": "Using formValues",
+      "body": "Test",
+      "id": 6
+    },
+    {
+      "title": "Hello",
+      "body": "This is my post!!!! Do you like it?",
+      "id": 7
+    },
+    {
+      "title": "New Title",
+      "body": "This is my title",
+      "id": 8
+    },
+    {
+      "title": "My title",
+      "body": "This is a post. Again. Again...",
+      "id": 9
+    },
+    {
+      "title": "Testing the route",
+      "body": "Maybe the history will work this time? One can never truly know... at least not until one tries it out!. ",
+      "id": 10
+    },
+    {
+      "body": "j",
+      "title": "j",
+      "id": 11
+    },
+    {
+      "title": "Hello",
+      "body": "Test",
+      "id": 12
+    },
+    {
+      "title": "dfsdfasdfsdfa dsf asd asd fasd f",
+      "body": "sdaf sad f sd fdsf sadf adf adsf sd fasdf asd fasdf asdf sdaf ",
+      "id": 13
+    },
+    {
+      "title": "Hello, this is the main title of my post.",
+      "body": "This is the body of the text, example. kdf jsakdf jasdjf ksadjf alskdjfl ksjadfl kjsadlfk jsdlkfj lsdkjf lkjk jksdjfkj kdjkfj skdjfl kjlkjlksdjflk jslkdfj jdjfdksjf.",
+      "id": 14
+    }
+  ]
+}
