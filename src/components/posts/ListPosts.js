@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { fetchPosts } from '../../actions';
 import { Link } from 'react-router-dom';
 
-import './listposts.css';
+import './posts.css';
 
 class ListPosts extends Component {
   componentDidMount() {

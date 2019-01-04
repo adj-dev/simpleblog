@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './components.css';
+import './posts.css';
 
 const Modal = props => {
   return ReactDOM.createPortal(

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Route, Router } from 'react-router-dom';
+
 import history from '../history';
-import Landing from '../components/Landing/Landing';
-import CreatePost from '../components/CreatePost/CreatePost';
-import ListPosts from '../components/ListPosts/ListPosts';
-import NavBar from '../components/NavBar/NavBar';
-import About from '../components/About/About';
-import EditPost from '../components/EditPost/EditPost';
-import DeletePost from '../components/DeletePost';
+import Landing from './views/Landing';
+import CreatePost from './posts/CreatePost';
+import ListPosts from './posts/ListPosts';
+import NavBar from './views/NavBar';
+import About from './views/About';
+import EditPost from './posts/EditPost';
+import DeletePost from './posts/DeletePost';
 
 const App = () => {
   return (

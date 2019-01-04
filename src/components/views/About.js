@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './about.css';
+import './views.css';
 
 const About = () => {
   return (
